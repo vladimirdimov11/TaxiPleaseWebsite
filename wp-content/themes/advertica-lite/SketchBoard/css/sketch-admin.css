@@ -1,0 +1,21 @@
+#frontpagesection-metabox .inner {clear: both;}
+#frontpagesection-metabox h4{margin:0;}
+#frontpagesection-metabox .inside  table,#pagetitle-metabox .inside  table{padding: 0 10px;width: 100%;}
+#frontpagesection-metabox .inside td ,#pagetitle-metabox  .inside td {border-bottom: 1px dotted #CCCCCC; width: 50%; }
+#frontpagesection-metabox .handlediv,#pagetitle-metabox .handlediv{color: #FFFFFF;}
+#frontpagesection-metabox .hndle,#pagetitle-metabox .hndle{background: none repeat scroll 0 0 #1588FF;color: #FFFFFF;}
+#frontpagesection-metabox .team_member_items,.skt-statics-inner{background: none repeat scroll 0 0 #EEEEEE; display: inline-block; margin-left: -7px; margin-top: 15px; padding: 7px;border: 1px solid #E9E9E9;} 	 	
+#frontpagesection-metabox .team_member_items .team_blocks{display: inline-block; width: 160px;} 	
+#frontpagesection-metabox .team_member_items .team_blocks label { display: block; font-weight: 600; margin-bottom: 5px;margin-left:4px;} 	
+#frontpagesection-metabox .team_member_items .team_member_selections {margin-top:17px; margin-bottom: 5px;}
+#frontpagesection-metabox .team_member_items .team_member_selections select{padding:3px;}
+#frontpagesection-metabox .team_member_items,#frontpagesection-metabox .team_member_selections,.skt-statics-inner{display:none;}
+#frontpagesection-metabox table td{padding:15px 0px;}
+#frontpagesection-metabox input[type="radio"] {margin-right:5px;}
+#frontpagesection-metabox #video strong{margin-left:4px;}
+#frontpagesection-metabox .skt-slider-set .allslider-inner{display:none;background: none repeat scroll 0 0 #EEEEEE;margin-left: -7px; margin-top: 16px; padding: 7px;border: 1px solid #E9E9E9;}
+#frontpagesection-metabox .skt-slider-set .allslider-inner table {margin:0px;}
+#frontpagesection-metabox .skt-slider-set .allslider-inner table td{padding:0px;border:none;}
+#frontpagesection-metabox  #skt_video_section{ margin-bottom: 5px;margin-top: 5px;}
+#setting-error-tgmpa{margin:10px 0px;padding-right: 0;}
+#tgmpa-plugins .tablenav select option[value="tgmpa-bulk-install"]{display:none;}#wpwrap a[href="themes.php?page=custom-header"], #wpwrap a[href="themes.php?page=custom-background"]{display:none;}

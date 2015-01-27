@@ -1,0 +1,475 @@
+﻿/*-------------------------------------------------------------------------------------------*/
+/* Options Framework Admin Styles */
+/*-------------------------------------------------------------------------------------------*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+html .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.donate-info { 
+	background-color:#333; 
+	margin:14px 15px 20px 0; 
+	border: 1px dashed rgba(0, 0, 0, 0.2); 
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	position: relative; 
+	padding: 20px; 
+	font-size: 18px;
+	color: #fff;  
+	max-width: 741px;
+}
+.donate-info a {
+	font-size: 15px;
+   padding: 10px 17px;
+   margin: 15px 5px 0 0;
+   text-align: center;
+	text-decoration: none;	
+	 color: #fff; 
+   display: inline-block;
+}
+.donate-info a:hover {   
+
+}
+a.upgrade { 
+	background-color:#1abc9c;
+}
+a.donate {
+   background-color:#f39c12;
+}
+a.review {
+   background-color:#1588ff;
+}
+#social-share  {
+    bottom: 27px;
+    float: right;
+    position: absolute;
+    right: 5px;
+    width: 33%;
+}
+#social-share .fb-like {
+    float: left;
+    margin-right: 10px;
+    vertical-align: top;
+    width: 33%;
+}
+#social-share .tw-follow {
+	float: left;
+}
+
+
+#optionsframework {
+	position:relative;
+	z-index: 0;
+	max-width:780px;
+	background:#ECECEC;
+	border:none;
+}
+
+#optionsframework h3 {
+	background: none repeat scroll 0 0 #36B1FF;
+    color: #FFFFFF;
+    cursor: default;
+    min-height: 19px;
+    padding-left: 22px;
+    padding-top: 10px;
+    text-shadow: none;
+}
+
+#optionsframework p {
+	margin-bottom:0;
+	padding-bottom:10px;
+	line-height: 1.4em;
+}
+
+#optionsframework .section {
+	padding:10px 25px 0;
+}
+
+#optionsframework .group {
+	padding-bottom:40px;
+	background-color: #fff;
+	min-height:200px;
+}
+
+#optionsframework .section .heading {
+	padding:10px 0px;
+	margin:0 0 15px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+#optionsframework .section .controls {
+	float: left;
+	min-width:350px;
+	width: 54%;
+	padding-right:2%;
+}
+
+#optionsframework .section .explain {
+	font-size: 12px;
+	line-height:16px;
+	color: #777;
+}
+
+#optionsframework .section-checkbox .controls {
+	width: 98%;
+}
+
+#optionsframework .section-checkbox .explain {
+	max-width:94%;
+}
+
+#optionsframework .section-color .controls {
+	min-width:125px;
+	width:125px
+}
+
+#optionsframework .controls input, #optionsframework .controls select, #optionsframework .controls textarea {
+	margin-bottom:10px;
+	width:100%;
+	border-radius: 0 0 0 0;
+}
+
+#optionsframework .section-radio label, #optionsframework .section-multicheck label {
+	float:left;
+	max-width:90%;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+
+#optionsframework input.checkbox, #optionsframework input.of-radio {
+	width: 30px;
+	margin-top:2px;
+	float:left;
+	clear:both;
+}
+
+#optionsframework .controls .of-color {
+	float:left;
+	width: 80px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+#optionsframework .controls .of-typography-size {
+	width:80px;
+	margin-left:5px;
+	float:left
+}
+
+#optionsframework .controls .of-typography-unit {
+	width:50px;
+	margin-left:5px;
+	float:left
+}
+
+#optionsframework .controls .of-typography-face {
+	width:100px;
+	margin-left:5px;
+	float:left
+}
+
+#optionsframework .controls .of-typography-style {
+	width:80px;
+	margin-left:5px;
+	margin-right:5px;
+	float:left
+}
+
+#optionsframework .of-background-properties {
+	clear:both;
+	margin-top: 18px;	
+}
+
+#optionsframework .controls .of-background-repeat {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+
+#optionsframework .controls .of-background-position {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+
+#optionsframework .controls .of-background-attachment {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+
+#optionsframework div.section-background .controls input.upload {
+	width:47%;
+}
+
+#optionsframework .controls .of-radio-img-img {
+	border:3px solid #f9f9f9;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+
+#optionsframework .controls .of-radio-img-selected {
+	border:3px solid #ccc
+}
+
+#optionsframework .controls .of-radio-img-img:hover {
+	opacity:.8;
+}
+
+#optionsframework .controls .of-border-width {
+	width:80px;
+	float:left
+}
+
+#optionsframework .controls .of-border-style {
+	width:120px;
+	float:left
+}
+
+#optionsframework .hide {
+	display:none;
+}
+
+#optionsframework .of-option-image {
+	max-width:340px;
+	margin:3px 0 18px 0;
+}
+
+#optionsframework .mini .controls select, #optionsframework .section .mini .controls {
+	width: 140px;
+}
+
+#optionsframework .mini .controls input, #optionsframework .mini .controls {
+	min-width:140px;
+	width: 140px;
+}
+
+#optionsframework .mini .explain {
+	max-width:74%;
+}
+
+/* Editor */
+#optionsframework .section-editor .explain {
+	max-width: 98%;
+	float:none;
+	margin-bottom:5px;
+}
+
+/* Image Uploader */
+
+#optionsframework .controls input.upload {
+	width:80%;
+}
+
+#optionsframework .controls input.upload_button {
+	float:right;
+	width:60px;
+	border-color:#BBBBBB;
+	cursor:pointer;
+	height:24px;
+	padding: 0;
+}
+
+#optionsframework .controls input.upload_button:hover {
+	border-color:#666666;
+	color:#000;
+}
+
+#optionsframework .screenshot {
+	float:left;
+	margin-left:1px;
+	position:relative;
+	width:344px;
+	margin-top:3px;
+}
+
+#optionsframework .screenshot img {
+	background:#FAFAFA;
+	border-color:#ccc #eee #eee #ccc;
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	max-width:334px;
+	padding:4px;
+	margin-bottom:10px;
+}
+
+#optionsframework .screenshot .mlu_remove {
+	background:url("../images/ico-delete.png") no-repeat;
+	border:medium none;
+	bottom:4px;
+	display:block;
+	float:left;
+	height:16px;
+	padding:0;
+	position:absolute;
+	left:-4px;
+	text-indent:-9999px;
+	width:16px;
+}
+
+#optionsframework .screenshot .no_image .file_link {
+	margin-left: 20px;
+}
+
+#optionsframework .screenshot .no_image .mlu_remove {
+	bottom: 0px;
+}
+
+#optionsframework .reset-button {
+    background: none repeat scroll 0 0 #FCFCFC;
+    border-radius: 0 0 0 0;
+    box-shadow: none;
+    cursor: pointer;
+    float: left;
+}
+
+/* Bottom Section */
+#optionsframework-submit {
+	background-color: #000000;
+    border-top: 1px solid rgba(0, 0, 0, 0);
+    clear: both;
+    padding: 7px 10px;
+}
+
+#optionsframework .button-primary {
+	background: none repeat scroll 0 0 #1588FF;
+    border-radius: 0 0 0 0;
+    box-shadow: none;
+    float: right;
+}
+
+/* Bottom Section */
+#optionsframework .section:before, #optionsframework .section:after {
+	content: "";
+	display: table;
+}
+
+#optionsframework .section:after {
+	clear: both;
+}
+
+.nav-tab-wrapper .nav-tab {color: #FFFFFF; text-shadow: none;}
+.nav-tab-wrapper .nav-tab:hover {color: #000; text-shadow: none; border-radius: 0 0 0 0;}
+.nav-tab-wrapper .nav-tab-active {color: #36B1FF; text-shadow: none; border-radius: 0 0 0 0;}
+
+/*--------------- custom css ----------------------*/
+
+#optionsframework #skt-of-header{
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none no-repeat scroll left top #1588FF;
+    border-color: #CCCCCC #CCCCCC #FFFFFF;
+    border-image: none;
+    border-style: solid;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-width: 0 0 1px;
+    height: 80px;
+    padding-top: 15px;
+}
+
+#optionsframework #skt-of-body{
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    /*background: none repeat scroll 0 0 #222222;*/
+    border-image: none;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+	background:url(../images/advertica-options-bg.png) repeat-y;
+}
+
+#optionsframework #skt-of-sidebar{
+	float:left;
+	width: 158px;
+}
+
+#optionsframework #skt-of-content{
+	float:left;
+	width: 619px;
+	border-left: 1px solid rgba(0, 0, 0, 0);
+
+}
+#optionsframework  h2 {
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+#optionsframework .skt-of-logo{
+	background: url("../images/logo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 56px;
+    margin-left: 31px;
+    width: 155px;
+}
+
+#optionsframework #skt-of-header h2{
+    float: left;
+    padding-top: 18px;
+    text-align: center;
+    width: 74%;
+}
+
+#optionsframework #skt-of-sidebar a.nav-tab{
+    border-color: -moz-use-text-color -moz-use-text-color #555555;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	margin: 0;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    padding: 10px 2px 10px 14px;
+    width: 142px;
+}
+
+#optionsframework #skt-of-sidebar a.nav-tab:hover{
+
+	background-color: #fff;
+
+}
+
+/*-- custon --*/
+#setting-error-save_options{
+    background-color: #333333;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+    left: 300px;
+    margin: 5px 0 15px;
+    opacity: 0.8;
+    padding: 35px;
+    position: absolute;
+    top: 150px;
+    z-index: 999;
+}
+#optionsframework #advertica_submit{
+	font-size: 18px;
+	height: 60px;
+	left: 960px;
+	position: fixed;
+	top: 40%;
+	width: 126px;
+}
+
+#wpwrap a[href="themes.php?page=custom-header"], #wpwrap a[href="themes.php?page=custom-background"]{display:none;}
+/* Backup Settings */
+#icon-import-export { background-image: url("../images/logo.png"); height: 59px; margin-left: 8px; margin-top: 3px; width: 160px; } 
+.sketch-backup{margin-top:10px;width:780px; }
+.sketch-backup .sketch-bkrp{border: 1px solid #ccc;	background-color: #F7F7F7;border-top:0;}
+.sketch-backup h2{   line-height: 30px;-moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; background: none no-repeat scroll left top #1588FF; border-color: #CCCCCC #CCCCCC #FFFFFF; border-image: none; border-style: solid; border-top-left-radius: 0; border-top-right-radius: 0; border-width: 0 0 1px; height: 46px; text-align:center; padding-top: 15px; color: #FFFFFF; margin-bottom: 0;margin-top:0;} 
+.sketch-backup .import,.sketch-backup .export { margin: 0; padding: 0 10px 20px; border-top: 1px solid #ccc; } 
+sketch-backup .import label { display:block; padding: 0 0 5px 0; }

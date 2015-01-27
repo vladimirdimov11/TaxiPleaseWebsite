@@ -1,0 +1,52 @@
+/*========= Advertica Lite =========*/
+
+== Copyright and License ==
+Advertica Lite WordPress Theme, Copyright (C) 2014 SketchThemes
+Advertica Lite WordPress theme is licensed under the GPL.
+
+/*========= Installation =========*/
+
+1. Upload the `advertica-lite` folder to the `/wp-content/themes/` directory
+Activation and Use
+1. Activate the Theme through the 'Themes' menu in WordPress
+2. See Appearance -> Advertica Options to change theme options.
+3. create a page and set Home Page Template for front page.
+3. See Settings -> Reading -> Choose a Page for the Front page and Page for Posts page from drop-down.
+
+
+/*========= Theme Features and Documentation =========*/
+
+== WP Version ==
+
+It's requires at least version 3.4 to work properly.Please make sure your WP version is at least 3.4.
+
+
+== Theme Setup ==
+
+*General Settings:*
+
+1)Upload a logo and a favicon.
+2)Choose Theme Color.
+5)Custom Background.
+
+*Blog page Title*
+1)Enter Blog page Title.
+
+
+*Home Page Options :*
+1) Go To Settings -> Reading Settings and Set Your Front and Post page.
+2) Go To Advertica Options -> Home page Template sections.
+3) Set home page template at your page.
+
+*Footer :*
+1) Enter Your Copyright Text(You can use HTML for links.)
+
+/*========= Page Templates =========*/
+
+1)Home Page Template
+2)Full Width Template
+
+
+/*========= Translation =========*/
+
+The Advertica Lite is ready for translation. Translation files are in /languages.

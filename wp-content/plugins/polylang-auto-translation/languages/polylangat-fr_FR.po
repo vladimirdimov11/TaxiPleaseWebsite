@@ -1,0 +1,64 @@
+# Copyright (C) 2013 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Polylang auto translation\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/polylang-auto-translation\n"
+"POT-Creation-Date: 2013-01-21 13:41:01+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-01-22 09:41+0100\n"
+"Last-Translator: Karim El Khalifa <karim@moutons.ch>\n"
+"Language-Team: El Khalifa Karim <karim@moutons.ch>\n"
+"Language: French\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. Plugin main name
+#: polylangat.php:66 polylangat.php:279
+msgid "Auto-translate"
+msgstr "Traduction automatique"
+
+#. %1$s is the auto-transaltion button and %2$s is the language select box
+#: polylangat.php:78
+msgid "%1$s from the article in %2$s."
+msgstr "%1$s à partir de l'article en %2$s."
+
+#. The label of the Translate button
+#: polylangat.php:66 polylangat.php:279
+msgid "Translate"
+msgstr "Traduire"
+
+#. label before the field list to translate
+#: polylangat.php:84
+msgid "Automatically translate:"
+msgstr "Traduire automatiquement:"
+
+#. Title of the translation services section
+#: polylangat.php:94
+msgid "Translation Services"
+msgstr "Services de traduction"
+
+#. %1$s is the translate button
+#. %2$s is the list of fields to translate
+#. %3$s is the radio button String
+#. %4$s is the radio button translations
+#. %5$s is the language select box
+#. %6$s are the translation services checkboxes
+#: polylangat.php:283
+msgid "%1$s %2$s from the %3$s or %4$s in %5$s using: %6$s"
+msgstr "%1$s %2$s à partir de la %3$s ou des %4$s en %5$s en utilisant: %6$s"
+
+#. Plugin Name of the plugin/theme
+msgid "Polylang Auto Translation"
+msgstr "Polylang Auto Translation"
+
+#. Description of the plugin/theme
+msgid "Add auto-translation functionality to the Polylang plugin."
+msgstr ""
+"Ajoute au plugin Polylang une fonctionnalité de traduction automatique."
+
+#. Tags of the plugin/theme
+msgid "translation"
+msgstr "traduction"
